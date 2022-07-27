@@ -26,3 +26,22 @@ body {
 .header-btn {
   font-family: inherit;
 }
+
+.form {
+  width: 448px;
+  display: flex;
+  outline: 1px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  outline: 1px solid teal;
+  margin-bottom: 20px;
+}
