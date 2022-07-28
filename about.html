@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About_us</title>
+  </head>
+  <body>
+    <a href="logo">
+      <img src="./img/Logo.svg" alt="лого сайта" />
+    </a>
+    <nav>
+      <ul>
+        <li><a href="">О нас</a></li>
+        <li><a href="">Услуги и цены</a></li>
+        <li><a href="">Мастера</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+380441111111">+38 044 111 11 11</a>
+    <button type="button">онлайн-запись</button>
+    <!-- --------------Форма для заполнения-------------- -->
+    <form class="form feedback-form">
+      <fieldset>
+        <p>Оставьте свои данные, мы вам перезвоним</p>
+        <div class="form-group">
+          <label for="name" class="form-label">
+            Имя
+            <input type="text" name="username" id="name" class="form-input" />
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            Телефон
+            <input type="tel" name="tel" />
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            Email
+            <input type="email" name="email" />
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            Комментарий
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+        </div>
+      </fieldset>
+      <button type="submit">Отправить</button>
+    </form>
+  </body>
+</html>
