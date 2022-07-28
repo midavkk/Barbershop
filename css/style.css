@@ -21,6 +21,7 @@ button {
 
 body {
   font-size: 14px;
+  line-height: 1.5;
   font-family: "Open sans", sans-serif;
   color: #2a2a2a;
 }
@@ -56,21 +57,36 @@ body {
   font-family: inherit;
 }
 
+.form-title {
+  margin-bottom: 20px;
+}
+
 .form {
-  width: 448px;
-  display: flex;
+  width: 600px;
   outline: 1px solid tomato;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 25px;
+  /* margin-right: auto; */
   padding: 20px;
 }
 
 .form-group {
+  outline: 1px solid blue;
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
-  outline: 1px solid teal;
   margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input::placeholder {
+  font-size: 14px;
+  line-height: 1.14;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+textarea {
+  /* resize: none; */
 }
