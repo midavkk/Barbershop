@@ -5,13 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About_us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <a href="logo">
       <img src="./img/Logo.svg" alt="лого сайта" />
     </a>
     <nav>
-      <ul>
+      <ul class="navigation">
         <li><a href="">О нас</a></li>
         <li><a href="">Услуги и цены</a></li>
         <li><a href="">Мастера</a></li>
@@ -21,8 +36,8 @@
     <a href="tel:+380441111111">+38 044 111 11 11</a>
     <button type="button">онлайн-запись</button>
     <!-- --------------Форма для заполнения-------------- -->
-    <form class="form feedback-form">
-      <fieldset>
+    <div class="container">
+      <form class="form feedback-form">
         <p>Оставьте свои данные, мы вам перезвоним</p>
         <div class="form-group">
           <label for="name" class="form-label">
@@ -52,8 +67,8 @@
             ></textarea>
           </label>
         </div>
-      </fieldset>
-      <button type="submit">Отправить</button>
-    </form>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
   </body>
 </html>
