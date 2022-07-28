@@ -38,34 +38,26 @@
     <!-- --------------Форма для заполнения-------------- -->
     <div class="container">
       <form class="form feedback-form">
-        <p>Оставьте свои данные, мы вам перезвоним</p>
+        <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
         <div class="form-group">
-          <label for="name" class="form-label">
-            Имя
-            <input type="text" name="username" id="name" class="form-input" />
-          </label>
+          <label for="name" class="form-label">Имя</label>
+          <input type="text" name="username" id="name" class="form-input" />
         </div>
         <div class="form-group">
-          <label>
-            Телефон
-            <input type="tel" name="tel" />
-          </label>
+          <label for="tel" class="form-label">Телефон</label>
+          <input type="tel" name="tel" id="tel" class="form-input" />
         </div>
         <div class="form-group">
-          <label>
-            Email
-            <input type="email" name="email" />
-          </label>
+          <label for="email" class="form-label">Email</label>
+          <input type="email" name="email" id="email" class="form-input" />
         </div>
         <div class="form-group">
-          <label>
-            Комментарий
-            <textarea
-              name="message"
-              rows="5"
-              placeholder="Введите текст"
-            ></textarea>
-          </label>
+          <label>Комментарий</label>
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Введите текст"
+          ></textarea>
         </div>
         <button type="submit">Отправить</button>
       </form>
