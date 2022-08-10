@@ -1,0 +1,22 @@
+// <section class="section">
+//         <h1 class="title">Lorem ipsum dolor sit amet</h1>
+//         <p class="text">
+//           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque enim
+//           amet laboriosam blanditiis eligendi delectus incidunt nesciunt
+//           obcaecati temporibus aspernatur. Reprehenderit aut eligendi facilis
+//           expedita repellat dignissimos voluptatum, iusto aspernatur. Earum, eum
+//           amet porro ipsa rerum perferendis adipisci dignissimos quaerat cumque,
+//           minus ratione.
+//       </section>
+
+.section {
+  background-color: aqua;
+
+  .title {
+    color: green;
+  }
+
+  .text {
+    color: teal;
+  }
+}
