@@ -1,0 +1,9 @@
+.section {
+  background-color: aqua;
+}
+.section .title {
+  color: green;
+}
+.section .text {
+  color: teal;
+}/*# sourceMappingURL=main.css.map */
