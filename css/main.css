@@ -1,9 +1,7 @@
-.section {
+box {
   background-color: aqua;
 }
-.section .title {
-  color: green;
-}
-.section .text {
-  color: teal;
+
+.button {
+  background-color: teal;
 }/*# sourceMappingURL=main.css.map */
