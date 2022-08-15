@@ -4,9 +4,8 @@ box {
 
 .button {
   background-color: teal;
-}
-
-&: hover;
-&:focus {
-  color: red;
+  &: hover;
+  &:focus {
+    color: red;
+  }
 }
