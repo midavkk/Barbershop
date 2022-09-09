@@ -196,23 +196,3 @@ img {
 }
 
 /* ----------------------------- */
-
-/* .header {
-  background-color: gray;
-}
-.header-link .header-tel {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.1em;
-  color: #ffffff;
-}
-.header-link:hover,
-.header-link:focus .header-tel:hover,
-.header-tel:focus {
-  color: orange;
-}
-
-.header-btn {
-  font-family: inherit;
-} */
