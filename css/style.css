@@ -195,4 +195,73 @@ img {
   fill: currentColor;
 }
 
-/* ----------------------------- */
+/* -------------create-model---------------- */
+
+.create-model-container {
+  background: teal;
+  width: 320px;
+  padding: 0 20px;
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+    padding: 0 32px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+
+.create-model-title {
+  margin-bottom: 16px;
+  @media screen and (min-width: 1440px) {
+    max-width: 648px;
+    margin-bottom: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 842px;
+    margin-bottom: 40px;
+  }
+}
+
+.create-model-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px 20px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 1440px) {
+    flex-wrap: nowrap;
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+}
+
+.create-model-list__item {
+  border-radius: 0px 0px 0px 50px;
+  @media screen and (max-width: 480px) {
+    min-width: 130px;
+  }
+  @media screen and (min-width: 1440px) {
+    min-width: 152px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+.create-model-list__card {
+  border-radius: 5px;
+  /* background: url(realistic_1.jpg);
+  border-radius: 0px 0px 0px 50px; */
+}
+
+.create-model__btn {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+}
