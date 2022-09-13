@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $fontCeraPro;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: $TextColor;
+  background-color: $primeryBackgroundColor;
+
+  @media screen and (min-width: $desktop) {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.28;
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
